@@ -1,0 +1,28 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Core deep learning packages
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+torchcam==0.3.1
+
+# Data handling
+numpy
+pandas
+Pillow
+
+# Visualization
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Machine learning and utils
+scikit-learn
+joblib
+tqdm
+
+# Other (used by sklearn, jupyter, etc.)
+python-dateutil
+threadpoolctl
+packaging
+pyparsing
+ipykernel
